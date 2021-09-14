@@ -1,5 +1,6 @@
 build
 node_modules
+.vscode
 .yarn/*
 !.yarn/patches
 !.yarn/releases

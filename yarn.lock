@@ -5797,7 +5797,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"husky@npm:^7.0.2":
+"husky@npm:latest":
   version: 7.0.2
   resolution: "husky@npm:7.0.2"
   bin:
@@ -8895,7 +8895,7 @@ fsevents@^1.2.7:
     eslint-plugin-react-hooks: ^4.2.0
     file-loader: ^6.2.0
     html-webpack-plugin: ^5.3.2
-    husky: ^7.0.2
+    husky: latest
     image-webpack-loader: ^7.0.1
     lint-staged: ^11.1.2
     path: ^0.12.7

@@ -8,7 +8,10 @@
     "webpack": "webpack",
     "start": "webpack serve --config webpack/webpack.config.js --open --env env=dev",
     "lint": "eslint ./src --ext .js,.jsx,.ts,.tsx  ",
-    "lint:fix": "npm run lint -- --fix"
+    "lint:fix": "npm run lint -- --fix",
+    "postinstall": "husky install",
+    "prepublishOnly": "pinst --disable",
+    "postpublish": "pinst --enable"
   },
   "dependencies": {
     "react": "^17.0.2",
@@ -38,7 +41,7 @@
     "eslint-plugin-react-hooks": "^4.2.0",
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.3.2",
-    "husky": "^7.0.2",
+    "husky": "^7.0.0",
     "image-webpack-loader": "^7.0.1",
     "lint-staged": "^11.1.2",
     "path": "^0.12.7",
@@ -50,7 +53,8 @@
     "webpack": "^5.44.0",
     "webpack-cli": "^4.7.2",
     "webpack-dev-server": "^3.11.2",
-    "webpack-merge": "^5.8.0"
+    "webpack-merge": "^5.8.0",
+    "pinst": "^2.0.0"
   },
   "husky": {
     "hooks": {

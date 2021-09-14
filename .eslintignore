@@ -1,0 +1,5 @@
+/build
+/coverage
+/webpack
+/node_modules
+.eslintrc.js
