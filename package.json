@@ -45,12 +45,17 @@
     "webpack-dev-server": "^3.11.2",
     "webpack-merge": "^5.8.0"
   },
-	"husky": {
+  "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
     }
-	},
-	"lint-staged": {
-			"src/**/*.{js,jsx,ts,tsx}": ["eslint", "pretty-quick — staged", "git add"]
-	}
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx}": [
+      "eslint",
+      "pretty-quick — staged",
+      "git add"
+    ]
+  },
+  "packageManager": "yarn@3.0.2"
 }
