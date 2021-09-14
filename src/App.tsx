@@ -2,7 +2,7 @@ import React from 'react';
 import REACT_LOGO from '@assets/react.png';
 import './style.css';
 
-const App = () => {
+const App:React.FunctionComponent = () => {
 	const sampleObject = {
 		prop1:{
 			prop2:'test'
@@ -10,7 +10,7 @@ const App = () => {
 	}
     return (
 			<div>
-				<img src={REACT_LOGO} height="200px" />
+				<img src={REACT_LOGO} height="200px" alt="react" />
         <h1>
             Hello World!!! {sampleObject?.prop1?.prop2}
         </h1>
