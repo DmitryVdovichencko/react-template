@@ -1,4 +1,5 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
-npm lint
+echo '$ commit-msg' 
+echo '$ yarn commitlint -e $1'
 npm test
